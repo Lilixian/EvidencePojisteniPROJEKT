@@ -34,7 +34,7 @@ namespace EvidencePojisteniPROJEKT
             
             foreach (PojisteneOsoby pojistenec in pojistenci)
             {
-                if (pojistenec.Jmeno == jmeno && pojistenec.Prijmeni == prijmeni)
+                if (pojistenec.Jmeno == jmeno.ToUpper().Trim() && pojistenec.Prijmeni == prijmeni.ToUpper().Trim())
                 {
                     mujPojistenec = pojistenec;
                 }

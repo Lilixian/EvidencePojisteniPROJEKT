@@ -23,8 +23,8 @@ namespace EvidencePojisteniPROJEKT
         /// <param name="telefonniCislo">Telefonní číslo</param>
         public PojisteneOsoby(string jmeno, string prijmeni, int vek, int telefonniCislo)
         {
-            Jmeno = jmeno;
-            Prijmeni = prijmeni;
+            Jmeno = jmeno.ToUpper().Trim();
+            Prijmeni = prijmeni.ToUpper().Trim();
             Vek = vek;
             TelefonniCislo = telefonniCislo;
         }

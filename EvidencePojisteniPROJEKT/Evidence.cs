@@ -59,7 +59,7 @@ namespace EvidencePojisteniPROJEKT
         {
             Console.Clear();
             Console.WriteLine("------------------------------");
-            Console.WriteLine("Evidence pojistenych");
+            Console.WriteLine("Evidence pojištěných");
             Console.WriteLine("------------------------------\n");
         }
     }
