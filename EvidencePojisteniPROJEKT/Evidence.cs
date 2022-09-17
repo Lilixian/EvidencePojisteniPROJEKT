@@ -15,24 +15,28 @@ namespace EvidencePojisteniPROJEKT
             databaze = new Databaze();
         }
 
+        /// <summary>
+        /// Přidá nového pojištěnce
+        /// </summary>
         public void PridejPojistence()
         {
             Console.WriteLine("Zadejte jméno pojištěného:");
             string jmeno = Console.ReadLine();
             Console.WriteLine("Zadejte příjmení:");
-            string prijmeni = Console.ReadLine();       // ?? má tu být takto string ?
+            string prijmeni = Console.ReadLine();       
             Console.WriteLine("Zadejte telefonní číslo:");
-            int telefonniCislo = int.Parse(Console.ReadLine()); // parsování opsáno
+            int telefonniCislo = int.Parse(Console.ReadLine()); 
             Console.WriteLine("Zadejte věk:");
             int vek = int.Parse(Console.ReadLine());
-            databaze.PridejPojistence(jmeno, prijmeni, telefonniCislo, vek);    // opsáno
+            databaze.PridejPojistence(jmeno, prijmeni, telefonniCislo, vek);    
             Console.WriteLine("Data byla uložena. Pokračujte libovolnou klávesou...");
             Console.ReadLine();
         }
 
-        
-
-        public void VypisPojistence()   //všechny 
+        /// <summary>
+        /// Vypíše všechny pojištené
+        /// </summary>
+        public void VypisPojistence() 
         {
             
             List<PojisteneOsoby> pojistenci = databaze.VypisPojistence();   // přepsáno z NajdiPojistence na VypisPojistence a v Databazi vymazan obsah závorky za VypisPojistence a pka to nebylo červené
@@ -48,19 +52,7 @@ namespace EvidencePojisteniPROJEKT
             string jmeno = Console.ReadLine();
             Console.WriteLine("Zadejte příjmení:");
             string prijmeni = Console.ReadLine();
-            databaze.NajdiPojistence(jmeno, prijmeni);
-            //List<PojisteneOsoby> pojistenci = databaze.NajdiPojistence(jmeno, prijmeni, false);
-            //if (pojistenci.Count > 0)
-            //{
-            //    Console.WriteLine("");
-            //    Console.WriteLine("Nalezen pojištěnec: ");
-            //    foreach (PojisteneOsoby p in pojistenci)
-            //        Console.WriteLine(p);
-            //}
-            //else
-            //    Console.WriteLine("");
-            //Console.WriteLine("Pojištěnec nebyl nalezen");
-                                           
+            databaze.NajdiPojistence(jmeno, prijmeni);                             
         }
 
         public void VypisUvodniObrazovku()
@@ -68,8 +60,7 @@ namespace EvidencePojisteniPROJEKT
             Console.Clear();
             Console.WriteLine("------------------------------");
             Console.WriteLine("Evidence pojistenych");
-            Console.WriteLine("------------------------------");
-            Console.WriteLine();
+            Console.WriteLine("------------------------------\n");
         }
     }
 }

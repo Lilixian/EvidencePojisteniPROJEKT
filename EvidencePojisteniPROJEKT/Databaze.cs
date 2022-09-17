@@ -1,5 +1,4 @@
-﻿/// Testování nového projektu
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +10,10 @@ namespace EvidencePojisteniPROJEKT
     {
         private List<PojisteneOsoby> pojistenci;
 
-        public Databaze()   // v objektu Databáze budou záznamy uloženy
+        /// <summary>
+        /// V objektu Databáze budou záznamy uloženy
+        /// </summary>
+        public Databaze()
         {
             pojistenci = new List<PojisteneOsoby>();
         }
@@ -21,10 +23,12 @@ namespace EvidencePojisteniPROJEKT
             pojistenci.Add(new PojisteneOsoby(jmeno, prijmeni, vek, telefonniCislo));
         }
 
-        
-
-
-        public void NajdiPojistence(string jmeno, string prijmeni)  // jednoho, dle jména a příjmení
+        /// <summary>
+        /// Vyhledá jednoho pojištěného podle jména a příjmení
+        /// </summary>
+        /// <param name="jmeno"></param>
+        /// <param name="prijmeni"></param>
+        public void NajdiPojistence(string jmeno, string prijmeni)
         {
             PojisteneOsoby mujPojistenec = new PojisteneOsoby("", "", 0, 0);  
             
@@ -49,9 +53,9 @@ namespace EvidencePojisteniPROJEKT
                 
         }
 
-        public List<PojisteneOsoby> VypisPojistence()    // ?? nevím, zda jsou správně údaje v závorkách ?
+        public List<PojisteneOsoby> VypisPojistence()  
         {
-            List<PojisteneOsoby> vsichniPojistenci = new List<PojisteneOsoby>(); // ?? tohle taky nevím, jestli tu má být?? 
+            List<PojisteneOsoby> vsichniPojistenci = new List<PojisteneOsoby>();
             foreach (PojisteneOsoby p in pojistenci)
             {
                 vsichniPojistenci.Add(p);

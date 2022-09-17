@@ -11,23 +11,14 @@ namespace EvidencePojisteniPROJEKT
         static void Main(string[] args)
         {
 
-            List<PojisteneOsoby> pojistenci = new List<PojisteneOsoby>();    // ?? nevím, jestli to tu má být neboto stačí  jen v databázi
-            {
-                // Vytvoření evidenční databáze
-                PojisteneOsoby jakub = new PojisteneOsoby("Jakub", "Bouček", 23, 608259497);
-                PojisteneOsoby roman = new PojisteneOsoby("Roman", "Skála", 35, 741852963);
-                PojisteneOsoby petra = new PojisteneOsoby("Petra", "Nová", 29, 147258369);
-            };
-
             // instance evidence
             Evidence evidence = new Evidence();
             char volba = '0';
 
-            // hlavní cyklus
+            // hlavní cyklus pro volbu operace
             while (volba != '4')
             {
                 evidence.VypisUvodniObrazovku();
-                Console.WriteLine();
                 Console.WriteLine("Vyberte si akci:");
                 Console.WriteLine("1 - Přidat nového pojištěného");
                 Console.WriteLine("2 - Vypsat všechny pojištěné");

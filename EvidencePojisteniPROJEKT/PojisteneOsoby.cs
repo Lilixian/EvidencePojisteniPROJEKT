@@ -17,10 +17,10 @@ namespace EvidencePojisteniPROJEKT
         /// <summary>
         /// Inicializace instance
         /// </summary>
-        /// <param name="jmeno"></param>
-        /// <param name="prijmeni"></param>
-        /// <param name="vek"></param>
-        /// <param name="telefonniCislo"></param>
+        /// <param name="jmeno">Jméno</param>
+        /// <param name="prijmeni">Příjmení</param>
+        /// <param name="vek">Věk</param>
+        /// <param name="telefonniCislo">Telefonní číslo</param>
         public PojisteneOsoby(string jmeno, string prijmeni, int vek, int telefonniCislo)
         {
             Jmeno = jmeno;
@@ -31,7 +31,7 @@ namespace EvidencePojisteniPROJEKT
         /// <summary>
         /// Vrátí textovou reprezentaci 
         /// </summary>
-        /// <returns>Textová reprezentace </returns>
+        /// <returns>Textová reprezentace pojištěné osoby</returns>
         public override string ToString()
         {
             return string.Format("{0} {1} {2} {3}", Jmeno, Prijmeni, Vek, TelefonniCislo);
