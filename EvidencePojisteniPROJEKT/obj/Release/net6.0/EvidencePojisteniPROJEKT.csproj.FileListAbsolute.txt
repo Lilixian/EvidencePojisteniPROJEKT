@@ -1,0 +1,15 @@
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.csproj.AssemblyReference.cache
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.AssemblyInfoInputs.cache
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.AssemblyInfo.cs
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.csproj.CoreCompileInputs.cache
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\bin\Release\net6.0\EvidencePojisteniPROJEKT.exe
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\bin\Release\net6.0\EvidencePojisteniPROJEKT.deps.json
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\bin\Release\net6.0\EvidencePojisteniPROJEKT.runtimeconfig.json
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\bin\Release\net6.0\EvidencePojisteniPROJEKT.dll
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\bin\Release\net6.0\EvidencePojisteniPROJEKT.pdb
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.dll
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\refint\EvidencePojisteniPROJEKT.dll
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.pdb
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\EvidencePojisteniPROJEKT.genruntimeconfig.cache
+C:\Users\Liask\Dropbox\Csharp\EvidencePojisteniPROJEKT\EvidencePojisteniPROJEKT\obj\Release\net6.0\ref\EvidencePojisteniPROJEKT.dll
