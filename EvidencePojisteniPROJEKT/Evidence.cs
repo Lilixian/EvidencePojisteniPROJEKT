@@ -39,13 +39,15 @@ namespace EvidencePojisteniPROJEKT
         public void VypisPojistence() 
         {
             
-            List<PojisteneOsoby> pojistenci = databaze.VypisPojistence();   // přepsáno z NajdiPojistence na VypisPojistence a v Databazi vymazan obsah závorky za VypisPojistence a pka to nebylo červené
+            List<PojisteneOsoby> pojistenci = databaze.VypisPojistence();
             foreach (PojisteneOsoby p in pojistenci)
                 Console.WriteLine(p);
             Console.ReadLine();
         }
 
-        // metoda VyhledejPojisteneho(), která vyzve uživatele k zadání jména a příjmení
+        /// <summary>
+        /// Vyzve uživatele k zadání jména a příjmení
+        /// </summary>
         public void VyhledejPojisteneho()   
         {
             Console.WriteLine("Zadejte jméno pojištěného:");

@@ -17,7 +17,13 @@ namespace EvidencePojisteniPROJEKT
         {
             pojistenci = new List<PojisteneOsoby>();
         }
-
+        /// <summary>
+        /// Přidá nového pojištěného
+        /// </summary>
+        /// <param name="jmeno">Jméno</param>
+        /// <param name="prijmeni">Příjmení</param>
+        /// <param name="vek">Věk</param>
+        /// <param name="telefonniCislo">Telefonní číslo</param>
         public void PridejPojistence(string jmeno, string prijmeni, int vek, int telefonniCislo)        
         {
             pojistenci.Add(new PojisteneOsoby(jmeno, prijmeni, vek, telefonniCislo));
@@ -26,8 +32,8 @@ namespace EvidencePojisteniPROJEKT
         /// <summary>
         /// Vyhledá jednoho pojištěného podle jména a příjmení
         /// </summary>
-        /// <param name="jmeno"></param>
-        /// <param name="prijmeni"></param>
+        /// <param name="jmeno">Jméno</param>
+        /// <param name="prijmeni">Příjmení</param>
         public void NajdiPojistence(string jmeno, string prijmeni)
         {
             PojisteneOsoby mujPojistenec = new PojisteneOsoby("", "", 0, 0);  
@@ -52,7 +58,10 @@ namespace EvidencePojisteniPROJEKT
             }
                 
         }
-
+        /// <summary>
+        /// Vypíše všechny pojištěné
+        /// </summary>
+        /// <returns>Všechny pojištěné osoby</returns>
         public List<PojisteneOsoby> VypisPojistence()  
         {
             List<PojisteneOsoby> vsichniPojistenci = new List<PojisteneOsoby>();
